@@ -1,0 +1,181 @@
+body {
+	background-color: #BF7130;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+#board {
+	position: relative;
+	margin: 50px;
+	height: 510px;
+	width: 510px;
+	border-width: thick;
+	border-color: #006363;
+	border-style: solid;
+	background-color: #0c8001;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-khtml-border-radius:10px;
+}
+
+#victory{
+	background-image: url(/media/images/sprite.png);
+	background-position: 0px 0px;
+	display:none;
+	position:absolute;
+	height:210px;
+	width:350px;
+	left:80px;
+	top:40px;
+	text-align: center;
+	font-size: 70px;
+	line-height: 210px;
+	color:white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-khtml-border-radius:10px;
+	border:solid thick white;
+}
+
+#line_a {
+	left: 160px;
+	top: 30px;
+	width: 15px;
+	height: 450px;
+}
+
+#line_b {
+	right: 160px;
+	top: 30px;
+	width: 15px;
+	height: 450px;
+}
+
+#line_c {
+	left: 30px;
+	top: 160px;
+	width: 450px;
+	height: 15px;
+}
+
+#line_d {
+	bottom: 160px;
+	left: 30px;
+	width: 450px;
+	height: 15px;
+}
+
+.line{
+	position: absolute;
+	background-color: #e6e6e6;
+}
+
+#b0 {
+	left: 0px;
+	top: 0px;
+}
+
+#b1 {
+	left: 175px;
+	top: 0px;
+}
+
+#b2 {
+	left: 350px;
+	top: 0px;
+}
+
+#b3 {
+	left: 0px;
+	top: 175px;
+}
+
+#b4 {
+	left: 175px;
+	top: 175px;
+}
+
+#b5 {
+	left: 350px;
+	top: 175px;
+}
+
+#b6 {
+	left: 0px;
+	top: 350px;
+}
+
+#b7 {
+	left: 175px;
+	top: 350px;
+	}
+
+#b8 {
+	left: 350px;
+	top: 350px;
+}
+
+#debug{
+	position: absolute;
+	display:none;
+	left:600px;
+	width:150px;
+	height:200px;
+	top:350px;
+	background-color: green;
+	border:#006363 solid medium;
+	padding:3px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-khtml-border-radius:10px;
+}
+
+#new{
+	top:150px;
+}
+
+#graphics{
+	top:250px;
+}
+
+#ai{	
+	top:200px;
+	}
+
+.button{
+    position: absolute;
+	left:600px;
+	width:150px;
+	text-align: center;
+	font-size:x-large;
+	color:#e6e6e6;
+	background-color: green;
+	border:#006363 solid medium;
+	padding:3px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-khtml-border-radius:10px;
+}
+
+.button:hover{
+	color:green;
+	cursor: pointer;
+	background-color:#e6e6e6;
+	border-color: green;
+
+}
+
+.box {
+	background-size:100px 100px;
+	background-position: center;
+	background-repeat:no-repeat;
+	line-height: 150px;
+	text-align: center;
+	font-size: 100px;
+	height: 160px;
+	width: 160px;
+	position: absolute;
+}
